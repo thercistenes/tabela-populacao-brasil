@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoSec {
+    font-size: .7em;
+}
+table {
+    position: relative;
+    width: 800px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+thead {
+    background-color: #eaecf0;
+    font-weight: bold;
+
+}
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #eaecf0;
+    border: 1px solid black;
+}
+tbody > tr:nth-child(2n) {
+    background-color: #f1f4f7;
+}
+td.num {
+    text-align: right;
+}
+img {
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    margin-right: 5px;
+}
+tfoot {
+    background-color: #eaecf0;
+}
+tfoot > tr {
+    width: 500px;
+    text-align: center;
+}
